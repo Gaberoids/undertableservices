@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'allauth.account',  # login and out, user registration password resets
     'allauth.socialaccount',  # login into social media
     'home',
+    'profiles',
 
 ]
 
