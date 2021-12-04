@@ -14,7 +14,6 @@
     {% endblock %}
 
     {% block corecss %}
-    
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
     {% endblock %}
 
@@ -22,7 +21,6 @@
     {% endblock %}
 
     {% block corejs %}
-    
     <!-- Stripe. Goes here to be applied in all pages due to security features built in the tool -->
     <script src="https://js.stripe.com/v3/"></script>
     {% endblock %}
@@ -34,7 +32,13 @@
 </head>
 
 <body>
-    <header class="">Under Table Services Header
+    <header class="">
+        <!-- navbar -->
+        <p>UnderTableServices</p>
+        <p>All services</p>
+        <p>Signin</p>
+        <p>Mail Box</p>
+        
     </header>
 
     {% block page_header %}
